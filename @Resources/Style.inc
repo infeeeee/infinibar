@@ -3,7 +3,6 @@ Update=100
 BackgroundMode=2
 
 @include1=#@#Variables.inc
-;@include1=#@#infinibar-Variables.inc
 
 SolidColor=#colorBackground#
 

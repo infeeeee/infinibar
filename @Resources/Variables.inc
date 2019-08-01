@@ -8,7 +8,6 @@
 TaskbarW=74
 TaskbarH=1440
 
-
 ; -----------
 ; Colors
 ; -----------
@@ -41,18 +40,10 @@ weatherUnit=c
 WindUnit=kph
 
 ; -----------
-; NowPlaying
-; -----------
-
-;change this according to documentation: https://docs.rainmeter.net/manual/plugins/nowplaying/#playerlist
-playerName=CAD
-playerClick="C:\Program Files (x86)\foobar2000\foobar2000.exe"
-
-; -----------
 ; VOL
 ; -----------
 
-volumeClick="C:\Users\gyetp\Documents\batch\node\bat\changeSoundOut.bat"
+volumeClick="C:\Users\gyetpet\Documents\_gitea\batch2\changeSoundOut.bat"
 
 ; -----------
 ; CPU
@@ -69,10 +60,10 @@ cpuClick="taskmgr.exe"
 ; VGA
 ; -----------
 
-HWiNFO-GPU0-Usage-SensorId=0xe0001800
+HWiNFO-GPU0-Usage-SensorId=0xe0002000
 HWiNFO-GPU0-Usage-SensorInstance=0x0
 HWiNFO-GPU0-Usage=0x7000000
-HWiNFO-GPU0-Temp-SensorId=0xe0001800
+HWiNFO-GPU0-Temp-SensorId=0xe0002000
 HWiNFO-GPU0-Temp-SensorInstance=0x0
 HWiNFO-GPU0-Temp=0x1000000
 vgaClick="C:\Program Files (x86)\GPU-Z\GPU-Z.exe"
@@ -81,10 +72,11 @@ vgaClick="C:\Program Files (x86)\GPU-Z\GPU-Z.exe"
 ; VRM
 ; -----------
 
-HWiNFO-GPU0-MemUse-SensorId=0xe0001800
+HWiNFO-GPU0-MemUse-SensorId=0xe0002000
 HWiNFO-GPU0-MemUse-SensorInstance=0x0
-HWiNFO-GPU0-MemUse=0x8000004
+HWiNFO-GPU0-MemUse=0x7000008
 
+;If your GPU doesn't report VRAM usage in percents, but in bytes, use the VRM-MB-variant, and write here your max VRAM in GBs:
 Max-VRM-In-GB=8
 
 ; -----------
@@ -108,22 +100,8 @@ maxOutValue=1073741824
 lanClick=control.exe /name Microsoft.NetworkAndSharingCenter
 
 ; -----------
-; Coins
-; -----------
-
-;The skin parses coinmarketcap.com for cryptocurrency values. You have to write here the coinmarketcap id of the coins. 
-;Most of the times it's the same as the name of the coin. You can find the id in the ending of the url of the respective coinmarketcap page. 
-;The coinmarketcap api updates in every 5 mins
-
-coinCode1=bitcoin
-coinCode2=bytecoin-bcn
-coinCode3=storj
-coinCode4=litecoin
-
-
-; -----------
 ; Buttons
 ; -----------
 
-;Button settings are in their respective ini files e.g. Buttons-8-1\Buttons.ini
-;There are 4 skins, 2 with 8 buttons and 2 with 4, you can set different functions to any button.
+;Button settings are in their respective ini files
+
