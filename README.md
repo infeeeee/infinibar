@@ -9,6 +9,7 @@ Based on my other skin, [infinimal](https://github.com/infeeeee/infinimal)
 ## Included skins
 
 #### Hardware monitor
+
 * CPU 
 * RAM 
 * VGA
@@ -17,17 +18,21 @@ Based on my other skin, [infinimal](https://github.com/infeeeee/infinimal)
 * Network in, out, and/or both
 
 #### Time and weather
+
 * Clock with date or only clock
 * Date
 * Temperature left or right aligned
 
 #### Sound
+
 * Volume slider
 
 #### Buttons
+
 * Buttons for starting programs, .bats, websites etc.
 
 #### Other
+
 * Ruler for aligning vertically
 
 ## Included layouts:
@@ -39,7 +44,6 @@ Horizontal_1920:
 | Vertical_1440                                              | Vertical_1080                                              |
 | ---------------------------------------------------------- | ---------------------------------------------------------- |
 | ![Vertical_1440](@Resources/Screenshots/Vertical_1440.png) | ![Vertical_1080](@Resources/Screenshots/Vertical_1080.png) |
-
 
 ## Screenshots
 
@@ -68,7 +72,9 @@ Button settings are in their respective .inis.
 You can change the height of the skins in `@Resources\Style.inc`.
 
 #### HWINFO plugin
+
 You will need update the HWiNFO IDs included in this skin to match the IDs for your system.  To do this:
+
 1. ensure HWiNFO is running, with sensors and shared memory active
 2. run the included "HWiNFOSharedMemoryViewer.exe" file in the @Resources\Plugins folder
 3. find the sensor reading you need (CPU Usage for example) and make note of the sensor id, sensor instance and entry id
@@ -91,6 +97,7 @@ To change the function of the buttons in the Button.ini file change the StartInF
 If you want to create a new button just copy and paste one of the folders and rename it. 
 
 #### Tips
+
 * For the transparent taskbar use [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) - [MS Store link](https://www.microsoft.com/en-us/p/translucenttb/9pf4kz2vn4w9).
 * If you always want to see the skin, you can reserve an area from maximized windows with the [DesktopWorkArea](https://docs.rainmeter.net/manual/settings/rainmeter-section/#DesktopWorkArea) Rainmeter setting. However this doesn't work reliably if you constantly detach and attach monitors, like I do. I recommend [DesktopCoral](https://www.donationcoder.com/software/mouser/other-windows-apps/desktopcoral) instead, it's much more consistent and free as well.
 * I use [Wget for Windows](http://gnuwin32.sourceforge.net/packages/wget.htm) for the buttons, I send get requests to my other computers.
