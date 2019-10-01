@@ -34,10 +34,15 @@ weekdayFormat=%A
 ; -----------
 
 weatherClickUrl=https://www.idokep.hu
-;Search for your weather code here: https://weather.codes/
-weatherCode=HUXX0002
-weatherUnit=c
-WindUnit=kph
+; register on https://openweathermap.org to get your free api key. This is mine, if it's not working, request your own!
+openweathermapApiKey=f876d352020c6490d27b248538c6d261
+; city name and country code divided by comma, use ISO 3166 country codes:
+weatherCode=Budapest,hu
+; use metric or imperial
+weatherUnitSystem=metric
+; use C or F
+weatherUnit=C
+
 
 ; -----------
 ; VOL

@@ -67,6 +67,8 @@ Download the .rmskin package from [releases](https://github.com/infeeeee/infinib
 
 All settings are in the `@Resources\Variables.inc` file. Edit with notepad, if something is not clear create an issue.
 
+For weather create a free api key at [openweathermap.org](https://openweathermap.org).
+
 Button settings are in their respective .inis.
 
 You can change the height of the skins in `@Resources\Style.inc`.
@@ -113,6 +115,8 @@ The font used in the skin is Accidental Residency, created by Tepid Monkey. http
 Volume slider is based on a skin created by UNIGHT(http://unight.deviantart.com/) modded by DISCONNECTVD(http://dscnctvd.deviantart.com/)
 
 Hwinfo skins are based on the example skin by Nick Connors. 
+
+Weather icons from icons8(https://icons8.com).
 
 ## License
 
