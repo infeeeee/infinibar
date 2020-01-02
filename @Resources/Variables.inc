@@ -48,7 +48,7 @@ weatherUnit=C
 ; VOL
 ; -----------
 
-volumeClick="C:\Users\gyetpet\Documents\_gitea\batch2\changeSoundOut.bat"
+volumeClick="C:\Users\gyetpet\Documents\_git\batch2\changeSoundOut.bat"
 
 ; -----------
 ; CPU
