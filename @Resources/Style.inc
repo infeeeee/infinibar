@@ -12,7 +12,7 @@ fontSizeMult=0.78
 
 ;general dimensions
 paddingX=4
-fullWidth=74
+fullWidth=72
 
 ;Heights: 
 ;If you use a horizontal layout, you should change this to the same number!
