@@ -73,19 +73,13 @@ Button settings are in their respective .inis.
 
 You can change the height of the skins in `@Resources\Style.inc`.
 
-#### HWINFO plugin
+#### HWiNFO
 
-You will need update the HWiNFO IDs included in this skin to match the IDs for your system.  To do this:
+From HWiNFO 7.0.2 you have to use the "HWiNFO Gadget" options to read values from HWiNFO.
 
-1. ensure HWiNFO is running, with sensors and shared memory active
-2. run the included "HWiNFOSharedMemoryViewer.exe" file in the @Resources\Plugins folder
-3. find the sensor reading you need (CPU Usage for example) and make note of the sensor id, sensor instance and entry id
-4. edit the Variables.inc file in the @Resources folder to replace the provided IDs with the IDs for your system
-5. refresh all skins
+Follow this tutorial to get the indices of the values: https://docs.rainmeter.net/tips/hwinfo/
 
-More info on this plugin: https://www.hwinfo.com/forum/Thread-Rainmeter-plug-in-for-HWiNFO-3-2
-
-The original HWiNFO.inc is included in the @resources\Plugins folder, however not used anywhere, just for reference.
+After you obtained the values, type them in `@Resources\Variables.inc`.
 
 You can use the speedfan version for CPU if you want.
 VGA and VRM skins are HWinfo only.

@@ -54,32 +54,25 @@ volumeClick="C:\Users\gyetpet\Documents\_git\batch2\changeSoundOut.bat"
 ; CPU
 ; -----------
 
-HWiNFO-CPU0-DTS-SensorId=0xf0000501
-HWiNFO-CPU0-DTS-SensorInstance=0x0
-HWiNFO-CPU0-DTS-Core0temp=0x1000000
+hwinfoCpuTempRegistryIndex=0
 speedfanCpuTempNumber=2
-speedfanCpuTempUnit=C
+cpuTempUnit=C
 cpuClick="taskmgr.exe"
 
 ; -----------
 ; VGA
 ; -----------
 
-HWiNFO-GPU0-Usage-SensorId=0xe0002000
-HWiNFO-GPU0-Usage-SensorInstance=0x0
-HWiNFO-GPU0-Usage=0x7000000
-HWiNFO-GPU0-Temp-SensorId=0xe0002000
-HWiNFO-GPU0-Temp-SensorInstance=0x0
-HWiNFO-GPU0-Temp=0x1000000
+hwinfoVgaTempRegistryIndex=1
+hwinfoVgaUsageRegistryIndex=2
+vgaTempUnit=C
 vgaClick="C:\Program Files (x86)\GPU-Z\GPU-Z.exe"
 
 ; -----------
 ; VRM
 ; -----------
 
-HWiNFO-GPU0-MemUse-SensorId=0xe0002000
-HWiNFO-GPU0-MemUse-SensorInstance=0x0
-HWiNFO-GPU0-MemUse=0x7000008
+hwinfoVrmUsageRegistryIndex=3
 
 ;If your GPU doesn't report VRAM usage in percents, but in bytes, use the VRM-MB-variant, and write here your max VRAM in GBs:
 Max-VRM-In-GB=8
